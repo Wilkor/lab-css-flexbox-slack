@@ -1,7 +1,264 @@
-/*
-background-grey: #F4F3F4;
-button-purple: #192592
-main-titles dark-grey: #2C303F;
-paragraph grey: #5b5e6d;
-nav grey: #5b5e6d;
-*/
+*{
+    
+
+    
+    font-family: CircularPro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    margin-top: 0px;
+}
+
+.img-marcas-tm{
+
+    width: 190px;
+
+}
+.container-nenu{
+
+    width: 100%;
+    position: fixed;
+    background: white;
+    margin-top: 0px;
+
+}
+nav{
+    width: 100%;
+
+}
+.div-nav{
+
+  width:30%;  
+}
+
+.div-ul{
+
+  display: flex;
+  width: 10%;  
+  list-style: none;
+  justify-content: center;
+}
+
+.container-nenu{
+
+    display: flex;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+   
+}
+.container-nenu div nav ul{
+
+    width:100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    
+    
+
+}
+#logo-slack{
+width: 100px;
+}
+.container-nenu .div-ul {
+
+    width:15%;
+    display: flex;
+    list-style: none;
+   
+}
+
+.button-menu{
+ 
+    -moz-appearance: none;
+    appearance: none;
+    background: #611f69;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 4px;
+    text-align: center;
+    transition: all 420ms cubic-bezier(.165,.84,.44,1);
+    line-height: 1;
+    color: #fff;
+    padding: 10px;
+    box-shadow: inset 0 0 0 1px #1d1d1d;
+    box-shadow: none;
+    border: 2px solid #611f69;
+}
+
+
+.button-menu-item{
+ 
+    -moz-appearance: none;
+    appearance: none;
+    background: #611f69;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 4px;
+    text-align: center;
+    transition: all 420ms cubic-bezier(.165,.84,.44,1);
+    line-height: 1;
+    color: #fff;
+    padding: 10px;
+    box-shadow: inset 0 0 0 1px #1d1d1d;
+    box-shadow: none;
+    border: 2px solid #611f69;
+}
+
+
+.button-why{
+ 
+    -moz-appearance: none;
+    appearance: none;
+    background:white;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 4px;
+    text-align: center;
+    transition: all 420ms cubic-bezier(.165,.84,.44,1);
+    line-height: 1;
+    color: black;
+    padding: 10px;
+    box-shadow: inset 0 0 0 1px #1d1d1d;
+    box-shadow: none;
+    border: 2px solid #444444;
+}
+
+
+
+
+
+footer{
+
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    flex-direction: row;
+    flex-wrap: nowrap
+
+}
+footer ul li{
+
+    
+    
+    display: inline-block;
+    align-items: center;
+
+}
+.good-company{
+
+  
+    background: #f5f5f5;
+    width:100%;
+  
+
+   
+}
+
+.good-company .good-company-items{
+    background: #f5f5f5;
+    width:100%;
+  
+
+}
+.img-flag{
+
+    width:20px;
+}
+
+.div-coluna{
+
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+ 
+}
+
+.div-coluna ul li{
+
+    list-style: none;
+
+    
+}
+.div-coluna ul .li-titulo {
+    font-weight: bold;
+    color:#444444
+}
+.footer-flag{
+    width:13%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap
+ 
+
+}
+.email{
+    background-color: #fff;
+    color: #454545;
+    text-decoration: none;
+    font-family: CircularPro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: normal;
+    font-size: 1rem;
+    border: 1px solid #696969;
+    border-radius: 4px;
+    box-shadow: none;
+    padding: 1.15rem 1rem;
+    display: inline-block;
+}
+
+.img-happ{
+
+    width:100%
+}
+
+hr{
+
+ width: 50%;
+}
+
+
+
+#menu-slack{
+
+    display: none;
+}
+
+@media screen and (min-width: 50px) and (max-width: 780px) {
+    .container-nenu #menu-slack{
+     
+       display: block;
+     
+       margin-left: -30px;
+       margin-top: -30px;
+       width:50px;
+       height: 50px;
+
+    }
+
+  .div-nav .none-mobile {
+
+        display: none
+    }
+    .button-menu{        
+        display: none
+    }
+    .container-nenu{
+
+        height:80px;
+    }
+}
